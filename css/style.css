@@ -1,0 +1,41 @@
+body{
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    margin-left: 300px;
+    width: 980px;   
+  
+  
+    
+
+}
+
+form {
+   background-color: #fff;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 10%;
+    text-align: left;
+
+}
+    
+.fa-solid{
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+
+}
+     
+    
+button {
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
