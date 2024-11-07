@@ -8,27 +8,30 @@
     <title>Atividade - Local Storage JS</title>
 </head>
 <body>
-
-    <fieldset>
-        <legend>Dados Pessoais: </legend>
-        <label for="nome">Nome: </label> <br>
-        <input type="text" id="name" name="nome"><br><br>
-
-        <label for="curso">Curso: </label> <br>
-        <input type="text" id="curso" name="curso"><br><br>
-
-        <label for="ano">Ano de Conclusão:</label><br>
-        <input type="year" id="name" name="name"><br><br>
-
+    <div class="container">
+        <h1>Cadastro de Alunos</h1>
      
-    </fieldset>
+        <!-- Formulário de Cadastro -->
+        <div class="form-container">
+          <h2>Adicionar Aluno</h2>
+          <input type="text" id="nome" placeholder="Nome do Aluno">
+          <input type="text" id="curso" placeholder="Curso">
+          <input type="number" id="anoConclusao" placeholder="Ano de Conclusão">
+          <button onclick="cadastrarAluno()">Cadastrar Aluno</button>
+        </div>
+     
+        <!-- Botões de Ações -->
+        <div class="actions">
+          <button onclick="mostrarTodosAlunos()">Mostrar Todos os Alunos</button>
+          <input type="text" id="buscaNome" placeholder="Buscar por Nome">
+          <button onclick="mostrarAluno()">Buscar Aluno</button>
+        </div>
+     
+        <!-- Área de Exibição de Resultados -->
+        <div id="resultado"></div>
+      </div>
+     
+      <script src="js/script.js"></script>
 
-    <p id ="resultado"></p>
-
-
-
-
-
-    
 </body>
 </html>
